@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Grains</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:linear-gradient(to right,#d4fc79,#96e6a1);
+}
+
+header{
+    background:#2E8B57;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+.container{
+    width:90%;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+    padding:30px;
+}
+
+.card{
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+    transition:0.4s;
+}
+
+.card:hover{
+    transform:translateY(-10px) scale(1.05);
+    box-shadow:0 10px 20px rgba(0,0,0,0.3);
+}
+
+.card img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+    transition:0.4s;
+}
+
+.card:hover img{
+    transform:scale(1.1);
+}
+
+.content{
+    padding:15px;
+    text-align:center;
+}
+
+.content h2{
+    color:#2E8B57;
+}
+
+.content p{
+    color:#555;
+    margin:10px 0;
+}
+
+.price{
+    color:red;
+    font-size:20px;
+    font-weight:bold;
+}
+
+button{
+    background:#2E8B57;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:25px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    background:#ff9800;
+    transform:scale(1.1);
+}
+</style>
+
+</head>
+<body>
+
+<header>
+<h1>🌾 Grains Collection 🌾</h1>
+</header>
+
+<div class="container">
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY2gcMgor4ug-crFEUrj17X9Dvk6mMko2ffXp9ufinuQ&s=10" alt="Rice">
+<div class="content">
+<h2>Rice</h2>
+<p>Fresh premium rice.</p>
+<p class="price">₹60/kg</p>
+<button>Buy Now</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://twobrothersindiashop.com/cdn/shop/files/Khapli_Wheat_Grains_Emmer_Wheat_Grain_-_5kg.jpg?v=1754562839" alt="Wheat">
+<div class="content">
+<h2>Wheat</h2>
+<p>Organic wheat.</p>
+<p class="price">₹45/kg</p>
+<button>Buy Now</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhA_l0N9oD26K1ofCDnB445ng7Mnfu_VQ_FZPY_GbTWQ&s=10" alt="Maize">
+<div class="content">
+<h2>Maize</h2>
+<p>Healthy maize.</p>
+<p class="price">₹35/kg</p>
+<button>Buy Now</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8uuqcgoxC9H2M_PJ53Zu9nCHwo_XQZZhJMHprbxe7NBoIbBHCIVbi84xZ&s=10" alt="Barley">
+<div class="content">
+<h2>Barley</h2>
+<p>Nutritious barley.</p>
+<p class="price">₹55/kg</p>
+<button>Buy Now</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2021/09/23/rolled-oats-linen-wood-surface-white-bowl.jpg.rend.hgtvcom.1280.1280.85.suffix/1632429307666.webp" alt="Oats">
+<div class="content">
+<h2>Oats</h2>
+<p>Healthy oats.</p>
+<p class="price">₹90/kg</p>
+<button>Buy Now</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgo6kyWt2TkTsuf91-3a2Mt-vAYXjkx49mHmVnr5emKw&s=10" alt="Millet">
+<div class="content">
+<h2>Millet</h2>
+<p>Organic millet.</p>
+<p class="price">₹70/kg</p>
+<button>Buy Now</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://i.pinimg.com/736x/c2/61/76/c26176d4a8fce43b0b224246f73928c6.jpg" alt="Jowar">
+<div class="content">
+<h2>Jowar</h2>
+<p>Fresh jowar.</p>
+<p class="price">₹50/kg</p>
+<button>Buy Now</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReryIlnfSgej3OmIhoTUhp4Sal7fKvK1fPvnoA2-y5pUGWHqY_6nUtS3A&s=10" alt="Bajra">
+<div class="content">
+<h2>Bajra</h2>
+<p>Healthy bajra.</p>
+<p class="price">₹48/kg</p>
+<button>Buy Now</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSA7MysbUj7FrsNYh2EuNi0jcJf3imIqCpQgCZQHrTYmt9JKBg_InI-OD0&s=10" alt="Ragi">
+<div class="content">
+<h2>Ragi</h2>
+<p>Fresh ragi.</p>
+<p class="price">₹65/kg</p>
+<button>Buy Now</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUssSfw4YDdg2ox5qmxi3n5KBO49K3slYVKC5RqWoWwiL34Mx_CLedwlWk&s=10" alt="Quinoa">
+<div class="content">
+<h2>Quinoa</h2>
+<p>Premium quinoa.</p>
+<p class="price">₹180/kg</p>
+<button>Buy Now</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSevuADVsu3VzCjwyob2jH0elilY8gfeekpefYRssjQYHCjb_oGauzFloM&s=10" alt="Rye">
+<div class="content">
+<h2>Rye</h2>
+<p>Natural rye grains.</p>
+<p class="price">₹95/kg</p>
+<button>Buy Now</button>
+</div>
+</div>
+
+</div>
+
+</body>
+</html>

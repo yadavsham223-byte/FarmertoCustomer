@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vegetables</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+}
+
+header{
+    background:green;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+.container{
+    width:90%;
+    margin:30px auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:white;
+    border-radius:10px;
+    box-shadow:0 5px 10px rgba(0,0,0,0.2);
+    overflow:hidden;
+    transition:0.4s;
+    text-align:center;
+}
+
+.card:hover{
+    transform:translateY(-10px) scale(1.05);
+}
+
+.card img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+}
+
+.card h3{
+    margin:10px 0;
+    color:green;
+}
+
+.card p{
+    color:#555;
+    margin-bottom:10px;
+}
+
+button{
+    background:green;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    margin-bottom:15px;
+    border-radius:5px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:hover{
+    background:darkgreen;
+    transform:scale(1.08);
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <h1>Fresh Vegetables</h1>
+</header>
+
+<div class="container">
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ_xbuhBFvx-eTthFnN8-wSAwyno7iRd6XVf_qcbNc0kgPzi307t1zPGQ&s=10" alt="Tomato">
+<h3>Tomato</h3>
+<p>₹40/kg</p>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="https://static.vecteezy.com/system/resources/thumbnails/052/398/505/small/golden-harvest-fresh-potatoes-in-sunlit-field-for-autumn-bounty-and-agricultural-themes-photo.jpg" alt="Potato">
+<h3>Potato</h3>
+<p>₹30/kg</p>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="https://static.vecteezy.com/system/resources/thumbnails/055/376/378/small/freshly-harvested-red-onions-in-field-at-sunset-for-agriculture-and-food-design-photo.jpg" alt="Onion">
+<h3>Onion</h3>
+<p>₹35/kg</p>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="https://www.trustbasket.com/cdn/shop/articles/Carrot.jpg?v=1688378789" alt="Carrot">
+<h3>Carrot</h3>
+<p>₹50/kg</p>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="https://cdn.pixabay.com/photo/2018/10/03/22/08/kohl-3722517_1280.jpg" alt="Cabbage">
+<h3>Cabbage</h3>
+<p>₹25/piece</p>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXk0_8EE2YxKSvIvWgHhZeyda1e1Z-DHD_ueXNv4SN2j5967liaLAzEpoo&s=10" alt="Cauliflower">
+<h3>Cauliflower</h3>
+<p>₹45/piece</p>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwe-e9M-EXCJIKDHVhr6DG8vAk-wSYvUujHGQl3vzMXzOFXFoJ1kIfu9dX&s=10" alt="Brinjal">
+<h3>Brinjal</h3>
+<p>₹60/kg</p>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD4fmMjBqnlKHO-VR-Zb2a2SZXEBPdX0ZvJee4P3ZYwrg1tHu9W0pkJmsg&s=10" alt="Lady Finger">
+<h3>Lady Finger</h3>
+<p>₹55/kg</p>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS41xGrdEA5iD-A43vkLGslRGG7H8S8s0WWOI_83UMyX80mPQ7fVLOJ_B7v&s=10" alt="Capsicum">
+<h3>Capsicum</h3>
+<p>₹80/kg</p>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHAwPlCNfBotFvXaR8ZTUc2hDXHkwUrqLsa5Q118iaABPf2NGO2tzJxmc&s=10" alt="Spinach">
+<h3>Spinach</h3>
+<p>₹20/bunch</p>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyQolA26foPf4wa4-K4DQgkiPL9PIkxSYjHOR7qHtAmjfVsZTKt0eFqPBu&s=10" alt="Cucumber">
+<h3>Cucumber</h3>
+<p>₹40/kg</p>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwWo-iCbom02d9AEi7t5Y83dKMkOIaGV3ivWmm8eQjSARvAlt_3RdI0LjI&s=10" alt="Pumpkin">
+<h3>Pumpkin</h3>
+<p>₹35/kg</p>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqfT59lzzm7mQH4ZSvhG8eEEI8W6J00a2bNtPhRDfSveBsyN5s13FxW-c&s=10" alt="Green Peas">
+<h3>Green Peas</h3>
+<p>₹90/kg</p>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="https://creativefarmer.in/cdn/shop/products/radish-white-icicle-500x500.jpg?v=1616235748" alt="Radish">
+<h3>Radish</h3>
+<p>₹30/kg</p>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="https://images.everydayhealth.com/images/diet-nutrition/potential-health-benefits-of-green-beans-1440x810.jpg?sfvrsn=f52328f0_5" alt="Beans">
+<h3>Beans</h3>
+<p>₹70/kg</p>
+<button>Add to Cart</button>
+</div>
+<div class="card">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOfU2CB0iQbMdASfMX81REIQg2xbWetnrfJrjLLm6J7D37orZySP0uyiMf&s=10" alt="Lettuce">
+    <h3>Lettuce</h3>
+    <p>₹60/piece</p>
+    <button>Add to Cart</button>
+</div>
+
+<div class="card">
+    <img src="https://www.allthatgrows.in/cdn/shop/articles/Optimized-Feat_image-Zucchini_1.jpg?v=1708340775" alt="Zucchini">
+    <h3>Zucchini</h3>
+    <p>₹140/kg</p>
+    <button>Add to Cart</button>
+</div>
+
+<div class="card">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTk_-Cu47r3PJymACVO3jV5wfXtQA-BevDpN_oNNPHExA&s=10" alt="Turnip">
+    <h3>Turnip</h3>
+    <p>₹45/kg</p>
+    <button>Add to Cart</button>
+</div>
+
+<div class="card">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrPJJEB-cif89nzaa3Vlny5Z6yfgGjKB3qtP50-Rhskg&s" alt="Celery">
+    <h3>Celery</h3>
+    <p>₹90/bunch</p>
+    <button>Add to Cart</button>
+</div>
+
+<div class="card">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxPdqK2KsMlLqgyxeaGc5aC2wJAx0Qy1J6PljXK76n6Q&s=10" alt="Spring Onion">
+    <h3>Spring Onion</h3>
+    <p>₹40/bunch</p>
+    <button>Add to Cart</button>
+</div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Customer Login | Farmer To Customer</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    url("https://images.unsplash.com/photo-1464226184884-fa280b87c399?auto=format&fit=crop&w=1500&q=80");
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.login-box{
+    width:400px;
+    background:#fff;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 0 15px rgba(0,0,0,0.4);
+}
+
+.login-box h2{
+    text-align:center;
+    color:#2E8B57;
+    margin-bottom:20px;
+}
+
+label{
+    display:block;
+    margin-top:12px;
+    font-weight:bold;
+}
+
+input{
+    width:100%;
+    padding:10px;
+    margin-top:5px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    margin-top:20px;
+    background:#2E8B57;
+    color:white;
+    border:none;
+    border-radius:5px;
+    font-size:18px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#1B5E20;
+}
+
+.links{
+    text-align:center;
+    margin-top:15px;
+}
+
+.links a{
+    color:#2E8B57;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.links a:hover{
+    text-decoration:underline;
+}
+</style>
+</head>
+
+<body>
+
+<div class="login-box">
+
+<h2>👤 Customer Login</h2>
+
+<form action="customer.html">
+
+<label>Email Address</label>
+<input type="email" placeholder="Enter Email" required>
+
+<label>Password</label>
+<input type="password" placeholder="Enter Password" required>
+
+<button type="submit">Login</button>
+
+</form>
+
+<div class="links">
+<p>Don't have an account?</p>
+<a href="customer-register.html">Register Here</a>
+<br><br>
+<a href="login.html">⬅ Back to Main Login</a>
+</div>
+
+</div>
+
+</body>
+</html>

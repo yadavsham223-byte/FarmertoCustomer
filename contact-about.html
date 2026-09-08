@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About & Contact | Farmer To Customer</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f7f6;
+}
+
+/* Header */
+header{
+    background:#2E8B57;
+    color:white;
+    padding:15px 40px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+header h2{
+    font-size:28px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    font-size:17px;
+}
+
+nav a:hover{
+    color:yellow;
+}
+
+/* Hero */
+.hero{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    url("https://images.unsplash.com/photo-1464226184884-fa280b87c399?auto=format&fit=crop&w=1500&q=80");
+    background-size:cover;
+    background-position:center;
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+}
+
+.hero h1{
+    font-size:42px;
+}
+
+.hero p{
+    font-size:18px;
+    margin-top:10px;
+}
+
+/* Sections */
+.container{
+    width:90%;
+    max-width:1100px;
+    margin:40px auto;
+}
+
+.section{
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    margin-bottom:30px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+.section h2{
+    color:#2E8B57;
+    margin-bottom:15px;
+}
+
+.section p{
+    line-height:1.8;
+    color:#444;
+}
+
+form input,
+form textarea{
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    border:1px solid #ccc;
+    border-radius:5px;
+    font-size:16px;
+}
+
+form textarea{
+    height:120px;
+    resize:none;
+}
+
+button{
+    background:#2E8B57;
+    color:white;
+    border:none;
+    padding:12px 30px;
+    border-radius:5px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+button:hover{
+    background:#1B5E20;
+}
+
+.contact-info{
+    margin-top:20px;
+}
+
+.contact-info p{
+    margin:8px 0;
+}
+
+/* Footer */
+footer{
+    background:#2E8B57;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:30px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h2>🌾 Farmer To Customer</h2>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="productlist.html">Products</a>
+<a href="customer.html">Customer</a>
+<a href="order.html">Orders</a>
+<a href="profile.html">Profile</a>
+<a href="logout.html">Logout</a>
+</nav>
+</header>
+
+<div class="hero">
+<h1>About & Contact</h1>
+<p>Connecting Farmers Directly with Customers</p>
+</div>
+
+<div class="container">
+
+<div class="section">
+<h2>About Us</h2>
+
+<p>
+Farmer To Customer (F2C) is an online platform that connects farmers directly
+with customers. Our goal is to eliminate middlemen, ensure fair prices for
+farmers, and provide customers with fresh vegetables, fruits, grains, dairy,
+and organic products at affordable prices.
+</p>
+
+<p>
+Our mission is to support Indian farmers through digital technology while
+making healthy farm products easily available to every household.
+</p>
+</div>
+
+<div class="section">
+
+<h2>Contact Us</h2>
+
+<form>
+
+<input type="text" placeholder="Your Name" required>
+
+<input type="email" placeholder="Your Email" required>
+
+<textarea placeholder="Write Your Message..." required></textarea>
+
+<button type="submit">Send Message</button>
+
+</form>
+
+<div class="contact-info">
+<p><strong>📍 Address:</strong> Pune, Maharashtra, India</p>
+<p><strong>📞 Phone:</strong> +91 9876543210</p>
+<p><strong>📧 Email:</strong> support@farmertocustomer.com</p>
+<p><strong>🕒 Working Hours:</strong> Monday - Saturday (9:00 AM - 6:00 PM)</p>
+</div>
+
+</div>
+
+</div>
+
+<footer>
+© 2026 Farmer To Customer | All Rights Reserved
+</footer>
+
+</body>
+</html>

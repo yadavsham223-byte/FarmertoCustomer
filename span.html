@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Spices</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f5f5dc;
+}
+
+header{
+    background:#8B0000;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+.container{
+    width:90%;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+    padding:30px 0;
+}
+
+.card{
+    background:white;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+    transition:.4s;
+}
+
+.card:hover{
+    transform:translateY(-10px) scale(1.03);
+}
+
+.card img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+}
+
+.card-body{
+    padding:15px;
+    text-align:center;
+}
+
+.card-body h3{
+    color:#8B0000;
+    margin-bottom:10px;
+}
+
+.card-body p{
+    color:#555;
+    font-size:14px;
+    margin-bottom:15px;
+}
+
+button{
+    background:#8B0000;
+    color:white;
+    border:none;
+    padding:10px 18px;
+    border-radius:5px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:hover{
+    background:#228B22;
+    transform:scale(1.05);
+}
+</style>
+
+</head>
+<body>
+
+<header>
+<h1>Indian Spices</h1>
+<p>Fresh & Natural Spices</p>
+</header>
+
+<div class="container">
+
+<div class="card">
+<img src="https://info.ehl.edu/hubfs/EHL-Passugg_Blog_Kurkuma_Titelbild_001.jpg" alt="Turmeric">
+<div class="card-body">
+<h3>Turmeric</h3>
+<p>Natural spice with medicinal properties.</p>
+<button>Buy Now</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWybb--5A2J4PlUCHDKzrtj31FJD22AhDJZ_OVj7IPzQ&s=10" alt="Red Chilli">
+<div class="card-body">
+<h3>Red Chilli</h3>
+<p>Adds spicy flavor to every dish.</p>
+<button>Buy Now</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXBm8Zhq57lA2x-qquo9J8-_EM-nr1N7d5OOyWrwiCQrg3TUMZ7uWgwV6B&s=10" alt="Coriander">
+<div class="card-body">
+<h3>Coriander</h3>
+<p>Fresh aroma and rich taste.</p>
+<button>Buy Now</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://sindhuagency.in/cdn/shop/files/ipm-cumin-seed.jpg?v=1752925495" alt="Cumin">
+<div class="card-body">
+<h3>Cumin</h3>
+<p>Perfect spice for Indian recipes.</p>
+<button>Buy Now</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOtusCFaOrnb8k5ZDIsafLNsZ-bdW8VEeYLL9FQleaLEzYfIqTqQPkDxg&s=10" alt="Black Pepper">
+<div class="card-body">
+<h3>Black Pepper</h3>
+<p>Strong flavor and healthy spice.</p>
+<button>Buy Now</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://finebuy.co.in/wp-content/uploads/2022/07/Green-Cardamom.webp" alt="Cardamom">
+<div class="card-body">
+<h3>Cardamom</h3>
+<p>Sweet aroma for desserts and tea.</p>
+<button>Buy Now</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYLt7bWybXtl6oEAdzFPyd2R1eXGzimfx89lwaTOYWXGwcFqloJ71xpZg&s=10" alt="Cloves">
+<div class="card-body">
+<h3>Cloves</h3>
+<p>Used in biryani and masala dishes.</p>
+<button>Buy Now</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8Cuwq_UiTuaveCb1uER3YNu2fAzn_S0FMR6jH0X0_w_r5skYET7oYDtGB&s=10" alt="Cinnamon">
+<div class="card-body">
+<h3>Cinnamon</h3>
+<p>Rich flavor for sweets and curries.</p>
+<button>Buy Now</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0yadicwVrr_1N6eiiXay3jjlRrL9x6RYicFoISqiaPg&s=10" alt="Mustard Seeds">
+<div class="card-body">
+<h3>Mustard Seeds</h3>
+<p>Commonly used for tempering food.</p>
+<button>Buy Now</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://www.shutterstock.com/image-photo/fenugreek-seeds-on-metal-plate-260nw-1934663243.jpg" alt="Fenugreek">
+<div class="card-body">
+<h3>Fenugreek</h3>
+<p>Healthy spice with unique taste.</p>
+<button>Buy Now</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmyXfXa9_1tqBgfalv_xC5F1KjvilyjhL7Gxg3GGgtQw&s=10" alt="Fennel">
+<div class="card-body">
+<h3>Fennel</h3>
+<p>Refreshing mouth freshener and spice.</p>
+<button>Buy Now</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://mangalorespice.com/cdn/shop/files/Star_Anise_Chakra_Phool_Mangalore_Spice.jpg?v=1734799012" alt="Star Anise">
+<div class="card-body">
+<h3>Star Anise</h3>
+<p>Used in garam masala and soups.</p>
+<button>Buy Now</button>
+</div>
+</div>
+
+</div>
+
+</body>
+</html>

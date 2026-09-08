@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Farmer Dashboard</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+}
+
+/* Header */
+header{
+    background:#2E8B57;
+    color:white;
+    padding:15px 40px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+header h2{
+    font-size:28px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    font-size:17px;
+}
+
+nav a:hover{
+    color:yellow;
+}
+
+/* Welcome */
+.welcome{
+    background:#4CAF50;
+    color:white;
+    text-align:center;
+    padding:40px;
+}
+
+.welcome h1{
+    font-size:40px;
+}
+
+.welcome p{
+    margin-top:10px;
+    font-size:18px;
+}
+
+/* Dashboard Cards */
+.container{
+    width:90%;
+    margin:40px auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0 0 10px rgba(0,0,0,.2);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card h3{
+    color:#2E8B57;
+    margin-bottom:15px;
+}
+
+.card p{
+    margin-bottom:20px;
+    color:#555;
+}
+
+.card a{
+    display:inline-block;
+    padding:10px 20px;
+    background:#2E8B57;
+    color:white;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+.card a:hover{
+    background:#1B5E20;
+}
+
+/* Footer */
+footer{
+    background:#2E8B57;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:40px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h2>🌾 Farmer To Customer</h2>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="add-product.html">Add Product</a>
+        <a href="manageproduct.html">Manage Products</a>
+        <a href="order.html">Orders</a>
+        <a href="profile.html">Profile</a>
+        <a href="logout.html">Logout</a>
+    </nav>
+</header>
+
+<section class="welcome">
+    <h1>Welcome Farmer 👨‍🌾</h1>
+    <p>Manage your products and orders from one dashboard.</p>
+</section>
+
+<div class="container">
+
+    <div class="card">
+        <h3>➕ Add Product</h3>
+        <p>Add fresh fruits, vegetables, grains, and dairy products.</p>
+        <a href="add-product.html">Open</a>
+    </div>
+
+    <div class="card">
+        <h3>📦 Manage Products</h3>
+        <p>View, edit, and delete your available products.</p>
+        <a href="manageproduct.html">Open</a>
+    </div>
+
+    <div class="card">
+        <h3>🛒 View Orders</h3>
+        <p>Check customer orders and their current status.</p>
+        <a href="order.html">Open</a>
+    </div>
+
+    <div class="card">
+        <h3>👤 My Profile</h3>
+        <p>Update your personal and farm information.</p>
+        <a href="profile.html">Open</a>
+    </div>
+
+    <div class="card">
+        <h3>📋 Product List</h3>
+        <p>View all products available in your store.</p>
+        <a href="productlist.html">Open</a>
+    </div>
+
+    <div class="card">
+        <h3>🚪 Logout</h3>
+        <p>Securely log out of your farmer account.</p>
+        <a href="logout.html">Logout</a>
+    </div>
+
+</div>
+
+<footer>
+    © 2026 Farmer To Customer | Farmer Dashboard
+</footer>
+
+</body>
+</html>

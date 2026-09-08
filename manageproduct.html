@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Manage Products | Farmer To Customer</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f7f6;
+}
+
+/* Header */
+header{
+    background:#2E8B57;
+    color:white;
+    padding:15px 40px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+header h2{
+    font-size:28px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    font-size:17px;
+}
+
+nav a:hover{
+    color:yellow;
+}
+
+/* Container */
+.container{
+    width:90%;
+    margin:40px auto;
+}
+
+.container h1{
+    text-align:center;
+    color:#2E8B57;
+    margin-bottom:20px;
+}
+
+/* Table */
+table{
+    width:100%;
+    border-collapse:collapse;
+    background:white;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+th{
+    background:#2E8B57;
+    color:white;
+    padding:12px;
+}
+
+td{
+    text-align:center;
+    padding:12px;
+    border-bottom:1px solid #ddd;
+}
+
+tr:hover{
+    background:#f9f9f9;
+}
+
+img{
+    width:80px;
+    height:80px;
+    border-radius:5px;
+}
+
+/* Buttons */
+.btn{
+    padding:8px 15px;
+    border:none;
+    border-radius:5px;
+    color:white;
+    cursor:pointer;
+    margin:2px;
+}
+
+.edit{
+    background:#2196F3;
+}
+
+.edit:hover{
+    background:#1565C0;
+}
+
+.delete{
+    background:#f44336;
+}
+
+.delete:hover{
+    background:#c62828;
+}
+
+.add-btn{
+    display:inline-block;
+    background:#2E8B57;
+    color:white;
+    text-decoration:none;
+    padding:10px 20px;
+    border-radius:5px;
+    margin-bottom:20px;
+}
+
+.add-btn:hover{
+    background:#1B5E20;
+}
+
+/* Footer */
+footer{
+    background:#2E8B57;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:40px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h2>🌾 Farmer To Customer</h2>
+
+<nav>
+<a href="farmer-dashboard.html">Dashboard</a>
+<a href="add-product.html">Add Product</a>
+<a href="manageproduct.html">Manage Products</a>
+<a href="logout.html">Logout</a>
+</nav>
+</header>
+
+<div class="container">
+
+<h1>Manage Products</h1>
+
+<a href="add-product.html" class="add-btn">+ Add New Product</a>
+
+<table>
+
+<tr>
+<th>ID</th>
+<th>Image</th>
+<th>Product</th>
+<th>Category</th>
+<th>Price</th>
+<th>Stock</th>
+<th>Action</th>
+</tr>
+
+<tr>
+<td>101</td>
+<td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUJAdcnlxEFbrhuPJKmKd1ro0IYOqq9V4frhr1ieKQjadMrDHVXNVaJ4Gj&s=10" alt="Tomato"></td>
+<td>Tomato</td>
+<td>Vegetable</td>
+<td>₹40/kg</td>
+<td>100 kg</td>
+<td>
+<button class="btn edit">Edit</button>
+<button class="btn delete">Delete</button>
+</td>
+</tr>
+
+<tr>
+<td>102</td>
+<td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpUIISpWzSORykc2xylbX_aSP6pbdROOvLcZDyh_OdGESvvCo1KjtnsDs&s=10" alt="Apple"></td>
+<td>Apple</td>
+<td>Fruit</td>
+<td>₹150/kg</td>
+<td>50 kg</td>
+<td>
+<button class="btn edit">Edit</button>
+<button class="btn delete">Delete</button>
+</td>
+</tr>
+
+<tr>
+<td>103</td>
+<td><img src="https://media.gettyimages.com/id/155095621/photo/rice.jpg?s=612x612&w=gi&k=20&c=1ObRJEifpuk6lUlPDDu7Xi-HuKgNHDGlMkHB_s6VpJ4=" alt="Rice"></td>
+<td>Rice</td>
+<td>Grain</td>
+<td>₹70/kg</td>
+<td>200 kg</td>
+<td>
+<button class="btn edit">Edit</button>
+<button class="btn delete">Delete</button>
+</td>
+</tr>
+
+<tr>
+<td>104</td>
+<td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTptidxvSgGymLIOYlQaBRXhxMwqgmJFOAef-xY7UXEbA&s=10" alt="Milk"></td>
+<td>Milk</td>
+<td>Dairy</td>
+<td>₹60/Litre</td>
+<td>80 L</td>
+<td>
+<button class="btn edit">Edit</button>
+<button class="btn delete">Delete</button>
+</td>
+</tr>
+
+</table>
+
+</div>
+
+<footer>
+© 2026 Farmer To Customer | Manage Products
+</footer>
+
+</body>
+</html>

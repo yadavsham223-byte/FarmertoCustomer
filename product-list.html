@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Product List</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f5f5f5;
+}
+
+header{
+    background:#2e7d32;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+.container{
+    width:90%;
+    margin:auto;
+    padding:30px 0;
+}
+
+.products{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+}
+
+.card-body{
+    padding:15px;
+    text-align:center;
+}
+
+.card-body h3{
+    color:#2e7d32;
+    margin-bottom:10px;
+}
+
+.card-body p{
+    color:#555;
+    margin:8px 0;
+}
+
+.price{
+    color:red;
+    font-size:20px;
+    font-weight:bold;
+}
+
+button{
+    margin-top:10px;
+    padding:10px 20px;
+    border:none;
+    background:#2e7d32;
+    color:white;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#1b5e20;
+}
+
+footer{
+    background:#2e7d32;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:30px;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+<h1>Farmer To Customer</h1>
+<h2>Fresh Products</h2>
+</header>
+
+<div class="container">
+
+<div class="products">
+
+<div class="card">
+<img src="https://img.magnific.com/free-photo/top-view-raw-rice-inside-plate-dark-desk_179666-27235.jpg?semt=ais_hybrid&w=740&q=80" alt="Rice">
+<div class="card-body">
+<h3>Rice</h3>
+<p>Fresh Organic Rice</p>
+<p class="price">₹60/kg</p>
+<button>Buy Now</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://twobrothersindiashop.com/cdn/shop/files/Khapli_Wheat_Grains_Emmer_Wheat_Grain_-_5kg.jpg?v=1754562839" alt="Wheat">
+<div class="card-body">
+<h3>Wheat</h3>
+<p>Premium Wheat</p>
+<p class="price">₹45/kg</p>
+<button>Buy Now</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images-prod.healthline.com/hlcmsresource/images/AN_images/tomatoes-1296x728-feature.jpg" alt="Tomato">
+<div class="card-body">
+<h3>Tomato</h3>
+<p>Farm Fresh Tomato</p>
+<p class="price">₹35/kg</p>
+<button>Buy Now</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://t4.ftcdn.net/jpg/02/75/77/89/360_F_275778955_xxJe5fQvDy5oXbjupdJ162zLwU4sf3kT.jpg" alt="Potato">
+<div class="card-body">
+<h3>Potato</h3>
+<p>Fresh Potato</p>
+<p class="price">₹30/kg</p>
+<button>Buy Now</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_3bEvo92hShhHpokahOYAajJWa2DNTYERU3yd_7UNY6BoefHbB3FjeZw&s=10" alt="Onion">
+<div class="card-body">
+<h3>Onion</h3>
+<p>Organic Onion</p>
+<p class="price">₹40/kg</p>
+<button>Buy Now</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://plantsguru.com/cdn/shop/files/plantsguru-fruitplants-apple.jpg?v=1735618392" alt="Apple">
+<div class="card-body">
+<h3>Apple</h3>
+<p>Fresh Apple</p>
+<p class="price">₹180/kg</p>
+<button>Buy Now</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://static.toiimg.com/thumb/msid-120427786,width-1280,height-720,resizemode-4/120427786.jpg" alt="Mango">
+<div class="card-body">
+<h3>Mango</h3>
+<p>Sweet Mango</p>
+<p class="price">₹120/kg</p>
+<button>Buy Now</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUJAdcnlxEFbrhuPJKmKd1ro0IYOqq9V4frhr1ieKQjadMrDHVXNVaJ4Gj&s=10" alt="Milk">
+<div class="card-body">
+<h3>Milk</h3>
+<p>Fresh Cow Milk</p>
+<p class="price">₹60/Litre</p>
+<button>Buy Now</button>
+</div>
+</div>
+
+</div>
+
+</div>
+
+<footer>
+<p>© 2026 Farmer To Customer | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fresh Fruits</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#e3eae8;
+}
+
+header{
+    background:#05e274ae;
+    color:rgb(255, 255, 255);
+    text-align:center;
+    padding:20px;
+    font-size:30px;
+    font-weight:bold;
+}
+
+.container{
+    width:90%;
+    margin:30px auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:#fff;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 5px 10px rgba(0,0,0,0.2);
+    text-align:center;
+    transition:0.4s;
+}
+
+.card:hover{
+    transform:translateY(-10px) scale(1.05);
+}
+
+.card img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+}
+
+.card h3{
+    margin:10px 0;
+    color:#ff6600;
+}
+
+.card p{
+    margin-bottom:10px;
+    color:#555;
+}
+
+button{
+    background:#28a745;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    margin-bottom:15px;
+    border-radius:5px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    background:green;
+    transform:scale(1.08);
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    Fresh Fruits
+</header>
+
+<div class="container">
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlEsJ4HICtw6CPLK53t5p94nCY_6CYw7-ssJCMHIonTfnNXvbGyD-JQpZZ&s=10" alt="Apple">
+<h3>Apple</h3>
+<p>₹180/kg</p>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsut4bjzbgbhwkNQ9aVP0ow60KVFbGW6Aeh9jQ4Bv59k6C2kGdanmL3As&s=10" alt="Banana">
+<h3>Banana</h3>
+<p>₹60/dozen</p>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQReQOHKc53BYeOpPTeBwFOnBR4PnKxyzFjR4IM18KLPkI2wmuhYzvi1CM&s=10" alt="Mango">
+<h3>Mango</h3>
+<p>₹150/kg</p>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVl1iVTdN-OCpI3OfNGZQs-RPfS9EvssV92lkygC93j8ZqfX8AqRzzi3Wm&s=10" alt="Orange">
+<h3>Orange</h3>
+<p>₹100/kg</p>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="https://thumbs.dreamstime.com/b/colorful-bunch-grapes-rain-water-drops-colorful-bunch-pink-purple-grapes-green-leaves-rain-water-345480727.jpg" alt="Grapes">
+<h3>Grapes</h3>
+<p>₹90/kg</p>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs0JV2l413kfz-WRTRBbf4Nr_iLp5RbzJg1jHtpdJnLaOTJas12EZS-gUQ&s=10s" alt="Pineapple">
+<h3>Pineapple</h3>
+<p>₹80/piece</p>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="https://rukminim2.flixcart.com/image/480/640/xif0q/plant-seed/8/a/0/50-mw-watermelon-118-red-watermelon-fruit-sweet-and-juicy-original-imagkbjru6xqv8cz.jpeg?q=90" alt="Watermelon">
+<h3>Watermelon</h3>
+<p>₹40/kg</p>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYhuvJnG5KPemr6V7JT4_VZBihHjoIkli_oGO77T6sdlqylhAj_-KNwZaZ&s=10" alt="Papaya">
+<h3>Papaya</h3>
+<p>₹60/piece</p>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT71B8cbE4_1uBY4ege3OzRfs4X-ymL67KHZPmQbKdnKQ&s" alt="Guava">
+<h3>Guava</h3>
+<p>₹90/kg</p>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEKEO8ITPs8XqF1mItgqK5JRnTF6XyZbg4aFalgCwqPj9FqPmVJLiwct1-&s=10" alt="Strawberry">
+<h3>Strawberry</h3>
+<p>₹250/kg</p>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYvbsRvynrtCCb79ISDwa9qIL07fTx0AGy6ztAx-HijTEMcaCrteB0iPg&s=10" alt="Kiwi">
+<h3>Kiwi</h3>
+<p>₹350/kg</p>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqxt3ByGjL5dQV525epr1Lh9dLZYJUjZBGkC5_JTrFSw&s" alt="Pomegranate">
+<h3>Pomegranate</h3>
+<p>₹180/kg</p>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxrzwATCgy4G6jH-w68M_1MjwHAKw-oyxndOEhp4V7iQ&s=10" alt="Litchi">
+<h3>Litchi</h3>
+<p>₹220/kg</p>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_fx6WTRdCvmh3D1VyQ1w7Dfy3eDrAhoJCpnV10uXBOpwIlvf1vb-fkj32&s=10" alt="Cherry">
+<h3>Cherry</h3>
+<p>₹400/kg</p>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtCozD_8FRXdgM82A49wQeeGGFyTUBLDknWT29-XRPY5vBZRWaRRivkl0p&s=10" alt="Coconut">
+<h3>Coconut</h3>
+<p>₹50/piece</p>
+<button>Add to Cart</button>
+</div>
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3ya2g7wBU-rJraS7Ipys8_4b2ZRm5-04qwkGgRQB61ArYbBxspZ2wQ8g5&s=10" alt="Pear">
+<h3>Pear</h3>
+<p>₹180/kg</p>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVkhYy3WLntCa0g6prGr6K7uDAjN50cyBjQswRquJgrQ&s=10" alt="Plum">
+<h3>Plum</h3>
+<p>₹220/kg</p>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="https://img.magnific.com/free-photo/pitahaya-dragon-fruit-still-life-cinematic-dark-style_23-2151566283.jpg?semt=ais_hybrid&w=740&q=80" alt="Dragon Fruit">
+<h3>Dragon Fruit</h3>
+<p>₹250/kg</p>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAoqmqhO504EJeEa_Yo-jXuZdtMS76AhIwV6vpvj1LIQUjo2_IuZfAY0E&s=10" alt="Jackfruit">
+<h3>Jackfruit</h3>
+<p>₹90/kg</p>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPMgH7vXk6IUtf1Z4kbx3YDDrMPQI1yqLKwMQ4ZwLHEw&s" alt="Muskmelon">
+<h3>Muskmelon</h3>
+<p>₹60/piece</p>
+<button>Add to Cart</button>
+</div>
+
+
+</div>
+
+</body>
+</html>
